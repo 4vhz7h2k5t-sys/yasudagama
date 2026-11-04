@@ -1,0 +1,19 @@
+{
+  "name": "yasudagama",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/pages.mjs && vite --host 127.0.0.1",
+    "build": "node scripts/pages.mjs && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "node scripts/check.mjs",
+    "qa": "node scripts/qa.mjs",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "vite": "7.3.7",
+    "wrangler": "4.156.1"
+  }
+}
