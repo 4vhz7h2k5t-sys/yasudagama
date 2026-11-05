@@ -8,7 +8,6 @@ export const courses = [
   {
     id: 'hand', number: '01', name: '手びねり', catch: '手のひらから、自由なかたち。',
     tag: '小さなお子さまと一緒に', price: '3,850', time: '約2時間', age: '3歳以上', people: '2名〜',
-    image: '/images/handbuilding.webp', alt: '手で粘土の器を形づくる様子を表現した生成イメージ',
     description: '土をのばして、重ねて、そっと整える。自分のペースで形をつくる、手びねりの時間。少しゆがんだ輪郭も、手づくりならではの愛おしさです。',
     includes: '体験・材料・作品1点の焼成', note: '完成作品の送料は別途。お子さまだけでの参加はできません。',
     plan: `${planBase}l0000264C5/`,
@@ -17,7 +16,6 @@ export const courses = [
   {
     id: 'wheel', number: '02', name: '電動ろくろ', catch: 'くるくる、すっと。器が生まれる。',
     tag: '憧れのろくろに挑戦', price: '4,400', time: '約2時間', age: '10歳以上', people: '2名〜',
-    image: '/images/pottery-wheel.webp', alt: '電動ろくろで粘土の器をつくる手元の生成イメージ',
     description: '回る土に指を添えると、少しずつ器の姿に。指先の小さな動きで変わるかたちに、思わず夢中。初めての方も、先生のサポートを受けながら挑戦できます。',
     includes: '体験・材料・作品1点の焼成', note: '2人でろくろ1台を交代で使用。追加焼成・送料は別途、予約先でご確認ください。',
     plan: `${planBase}l000026500/`,
@@ -26,7 +24,6 @@ export const courses = [
   {
     id: 'pizza', number: '03', name: '陶芸 ＋ ピザ焼き', catch: 'つくる楽しさ、おいしい思い出。',
     tag: '家族や仲間と、ゆっくり一日', price: '5,390', time: '約5時間', age: '3〜99歳', people: '3名〜',
-    image: '/images/pizza.webp', alt: '薪窯と焼きたてのピザを表現した生成イメージ',
     description: '土に触れたあとは、ピザづくりをもうひと楽しみ。器をつくる時間も、焼きたてを囲む時間も、みんなで過ごす一日の思い出に。',
     includes: '手びねり体験・作品1点・ピザづくり1枚', note: '手びねりのセット条件です。電動ろくろのセットは5,940円〜。年齢・所要時間はそちらの予約先でご確認ください。送料別途。',
     plan: `${planBase}l0000264B1/`, wheelPlan: `${planBase}l0000264B3/`,
