@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-11-05",
+  "viewports": [
+    {
+      "bodyFont": "16px",
+      "noindex": "noindex,nofollow,noarchive",
+      "path": "/",
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "bodyFont": "16px",
+      "noindex": "noindex,nofollow,noarchive",
+      "path": "/courses/",
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "bodyFont": "16px",
+      "noindex": "noindex,nofollow,noarchive",
+      "path": "/",
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "bodyFont": "16px",
+      "noindex": "noindex,nofollow,noarchive",
+      "path": "/courses/",
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "bodyFont": "16px",
+      "noindex": "noindex,nofollow,noarchive",
+      "path": "/",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "bodyFont": "16px",
+      "noindex": "noindex,nofollow,noarchive",
+      "path": "/courses/",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "bodyFont": "16px",
+      "noindex": "noindex,nofollow,noarchive",
+      "path": "/",
+      "scrollWidth": 1024,
+      "width": 1024
+    },
+    {
+      "bodyFont": "16px",
+      "noindex": "noindex,nofollow,noarchive",
+      "path": "/courses/",
+      "scrollWidth": 1024,
+      "width": 1024
+    },
+    {
+      "bodyFont": "16px",
+      "noindex": "noindex,nofollow,noarchive",
+      "path": "/",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "bodyFont": "16px",
+      "noindex": "noindex,nofollow,noarchive",
+      "path": "/courses/",
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  ]
+}

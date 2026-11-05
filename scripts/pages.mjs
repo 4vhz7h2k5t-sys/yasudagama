@@ -58,10 +58,9 @@ function clayExperience() {
   <path id="glaze-shine" d="M159 235Q164 300 199 319" stroke="#fff" opacity="0" stroke-width="9" fill="none" stroke-linecap="round"/></g>
   <g class="heat-lines" fill="none" stroke="#df9c6b" stroke-width="2" stroke-linecap="round" opacity="0"><path d="M215 145q-15-20 0-40t0-40M250 130q-15-20 0-40t0-40M285 145q-15-20 0-40t0-40"/></g>
   </svg><span class="scene-stage" aria-hidden="true">01 / 04</span><span class="scene-mark" aria-hidden="true">土</span></div>
-  <div class="clay-controls"><label for="clay-progress">スライダーで、器を育ててみる <span aria-hidden="true">↔</span></label><input id="clay-progress" type="range" min="0" max="100" value="0" step="1" aria-valuetext="土にふれる">
+  <div class="clay-controls"><div class="glaze-options" hidden><span>器の色を変えてみる</span><div role="group" aria-label="イメージの釉薬を選ぶ"><button type="button" data-glaze="sand" class="glaze sand" aria-label="生成り" aria-pressed="true"></button><button type="button" data-glaze="green" class="glaze green" aria-label="織部を思わせる緑" aria-pressed="false"></button><button type="button" data-glaze="blue" class="glaze blue" aria-label="藍色" aria-pressed="false"></button></div></div><label for="clay-progress">スライダーで、器を育ててみる <span aria-hidden="true">↔</span></label><input id="clay-progress" type="range" min="0" max="100" value="0" step="1" aria-valuetext="土にふれる">
   <div class="stage-buttons" role="group" aria-label="器づくりの工程">${stages.map((s, i) => `<button type="button" data-stage="${i}" aria-pressed="${i === 0}"><span>0${i+1}</span>${s}</button>`).join('')}</div>
   <div class="stage-copy" aria-live="polite"><h3 id="stage-title">ひんやり、やわらか。土と出会う。</h3><p id="stage-description">はじまりは、ひとかたまりの土。手のひらで感触を確かめながら、つくりたい器を思い描きます。</p></div>
-  <div class="glaze-options" hidden><span>器の色を変えてみる</span><div role="group" aria-label="イメージの釉薬を選ぶ"><button type="button" data-glaze="sand" class="glaze sand" aria-label="生成り" aria-pressed="true"></button><button type="button" data-glaze="green" class="glaze green" aria-label="織部を思わせる緑" aria-pressed="false"></button><button type="button" data-glaze="blue" class="glaze blue" aria-label="藍色" aria-pressed="false"></button></div></div>
   <p class="clay-note">工程・色はイメージです。実際の釉薬・焼き上がりとは異なります。</p></div></div></div></section>`;
 }
 
