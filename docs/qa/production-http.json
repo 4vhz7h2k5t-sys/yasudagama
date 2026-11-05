@@ -1,0 +1,31 @@
+{
+  "base": "https://yasudagama.ur24-jp.workers.dev",
+  "passed": true,
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "noindex": true
+    },
+    {
+      "path": "/courses/",
+      "status": 200,
+      "noindex": true
+    },
+    {
+      "path": "/not-a-page",
+      "status": 404,
+      "noindex": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "noindex": true
+    },
+    {
+      "path": "/images/pottery-wheel.webp",
+      "status": 200,
+      "noindex": true
+    }
+  ]
+}

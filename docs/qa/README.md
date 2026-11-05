@@ -2,6 +2,10 @@
 
 検証日：2026-11-05（日本時間）
 
+本番URL： https://yasudagama.ur24-jp.workers.dev/
+
+本番公開後もHTTP検証を実行し、5経路すべて成功しました。PC幅1440px・モバイル幅390pxで本番の表示、コース切り替え、コース指定URL、器の完成操作を再確認し、この本番確認中のブラウザエラー・警告は0件でした。実測値は `production-http.json`、公開画面は `published-desktop.png` と `published-courses-mobile.png` を参照してください。
+
 ## 結果
 
 - `npm run build` 成功。Vite 7.3.7。

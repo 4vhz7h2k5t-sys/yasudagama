@@ -1,0 +1,12 @@
+{
+  "published_date_jst": "2026-11-05",
+  "url": "https://yasudagama.ur24-jp.workers.dev/",
+  "repository": "https://github.com/4vhz7h2k5t-sys/yasudagama",
+  "deployed_source_commit": "2a19420387fbd4aef8b7f72631a267df0b82e981",
+  "cloudflare_version_id": "9cf5aec5-f4fd-4a76-b3e5-854f733f66d1",
+  "production_http_checks": "passed",
+  "production_browser_viewports": [1440, 390],
+  "production_browser_errors": 0,
+  "production_browser_warnings": 0,
+  "notes": "Subsequent commits add verification records only; deployed site source is unchanged."
+}
