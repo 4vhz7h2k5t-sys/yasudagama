@@ -1,15 +1,15 @@
-# 陶器の立体と展示用CG
+# 作陶写真の管理
 
-ブラウザーの陶器とBlenderの静止画は、共通の断面データ `src/profiles.json` から制作しています。保田窯の実物・設備を再現したものではありません。
+初期版コミット `de848cd` の既存AI生成素材から、作陶の手元を示す2カットを選びました。
 
-- `src/ceramics.js` は断面から厚みのある立体メッシュを組み立てます。成形時は粘土と器の断面を補間し、ろくろ台を回します。
-- 陶器の色、ろくろ目、粒子、釉薬の境目はブラウザー内でテクスチャーに描画します。釉薬によって色と反射の粗さが変わります。
-- `assets-source/render-studio.py` はBlender Cyclesで静止画をレンダリングします。窓を模した面光源と、器ごとの釉薬、素地の質感を設定しています。
+| 掲載位置 | ファイル | 表示 |
+| --- | --- | --- |
+| TOPのHero | `public/images/pottery-wheel.webp` とスマートフォン用 `public/images/pottery-wheel-mobile.webp` | ろくろでの作陶イメージ |
+| 保田窯について | `public/images/handbuilding.webp` | 手びねりの作陶イメージ |
 
-公開用のWebPは `public/images/studio-bowl.webp`、`studio-cup.webp`、`studio-plate.webp`、`studio-collection.webp` です。読み込み中やWebGLが利用できない環境にも静止画を表示します。
+人物・工房・作品を記録した写真とは区別し、各画像のすぐ下に「AI生成イメージ・実景ではありません」と表示しています。撮影済みの実写が正式契約により提供された場合は、以下の手順で更新できます。
 
-再レンダリングはリポジトリ直下で以下を実行し、出力PNGを透過WebPに変換します。
-
-```sh
-Blender -b --factory-startup --python assets-source/render-studio.py -- /tmp/yasudagama-renders
-```
+1. 掲載許可済みの写真をWebPに書き出し、`public/images/` に追加します。
+2. `scripts/pages.mjs` の `photos.hero`、`photos.about` でファイルパス・代替テキスト・キャプション・出典表示（`credit`）を更新します。Heroのモバイル用画像も同じ撮影素材に更新します。
+3. フッターの素材説明を更新します。必要に応じて `src/style.css` の `object-position` を調整します。
+4. `npm run build` と `npm run check` を実行し、PC・スマートフォン幅で人物・手元の切れ方を確認します。
